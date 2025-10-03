@@ -1,0 +1,295 @@
+
+@media (max-width:1399px){
+ .container {
+        max-width: 1160px;
+    }
+
+}
+@media (max-width:1199px){
+ .container {
+        max-width: 960px;
+    }
+    .hero-text2{
+        left: 33%;
+    }
+
+}
+@media (max-width:991px){
+    .container {
+        max-width: 720px;
+    } 
+    .nav-link ul .nav-items a{
+        display: none;
+    }
+    .bars{
+        display: inline-block;
+    }
+    .hero-text2 h1 {
+        max-width: 600px;
+        font-size: 45px;
+    
+  }
+  .hero-bottam{
+   margin-left: 20px;
+  }
+    .loan-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+      /* .card-2{
+        display: none;
+     } */
+     .card-3{
+        display: none;
+     }
+     .gr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+.Company-card{
+    grid-template-columns: 1fr 1fr;
+}
+ .help-cards{
+    grid-template-columns: 1fr 1fr;
+ }
+ .footer{
+    flex-direction: column;
+ }
+.footer .footer-t{
+    justify-content: start;
+    gap: 15px;
+ }
+ .footer-text{
+    flex-direction: column;
+ }
+ .footer-tx{
+    width: 100%;
+ } .map p {
+    max-width: 600px;
+ }
+ .Contact-info
+ {
+    display: flex;
+    
+ }
+ .links{
+    margin-top: 40px;
+    width: 100%;
+ }
+ .map{
+    padding-right: 30px;
+
+ }
+ .num{
+    padding-inline: 30px;
+ }
+ .People-card{
+    grid-template-columns: 1fr 1fr;
+ }
+}
+@media (max-width:768px){
+    .container {
+        max-width: 540px;
+    } 
+    .top-line{
+        flex-direction: column;
+    }
+    .header-text1{
+        gap: 0px;
+    }
+     .header-text1 p{
+        margin-right: 10px;
+     }
+     .hero-text2 h1 {
+     
+        font-size: 42px;
+    }
+     .hero-text2{
+        left: 35%;
+     }
+     .home-lone{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+        margin-left: 20px;
+     }
+     .hero-bottam{
+        border: none;
+     }
+     .loan-card{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+      .card-2{
+        display: none;
+     }
+     .card-3{
+        display: none;
+     }
+    
+     .People-text
+        {
+            margin-inline: 20px;
+        }
+
+     .People-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-inline: 20px;
+     }
+.testimonial {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section-title h2{
+    font-size: 28px;
+}
+ .gr{
+    grid-template-columns: 1fr 1fr 1fr ;
+ }   
+ .Company-card{
+    grid-template-columns: 1fr ;
+}
+.companycard img{
+    width: 70%;
+}
+ .help-cards{
+    grid-template-columns: 1fr ;
+ }
+ .footer .footer-t{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-top: 10px;
+ }
+ .links{
+    grid-template-columns: 1fr 1fr;
+ }
+ .social{
+  margin-top: 40px;
+ }
+ .map p {
+    max-width: 200px;
+}
+}
+@media (max-width:575px){
+    .container {
+        max-width: 100%;
+    } 
+      .top-line{
+        padding-inline: 20px;
+    }
+     .navbar{
+        padding-inline: 20px;
+     }
+      .hero-text2 h1 {
+        max-width: 600px;
+        font-size: 40px;
+    }
+    .hero-text2 .per{
+        display: none;
+    }
+    .loancard{
+        margin-inline: 20px;
+    }
+    .loan-text h2 {
+        font-size: 26px;
+    }
+    .application-section{
+        margin-inline: 20px;
+    }
+    .application-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .application-text h2{
+font-size: 26px;
+    }
+    .People-text h2 {
+        font-size: 26px;
+    }
+    
+    .section-title{
+        margin-inline: 20px;
+    }
+    .testimonial{
+        margin-inline: 20px;
+    }
+     .gr{
+    grid-template-columns: 1fr 1fr 1fr;
+ }   
+ .Company-card{
+    margin-inline: 20px;
+ }
+ .companycard img{
+    width: 80%;
+}
+.Company-text h2 {
+        font-size: 26px;
+    }
+     .help-cards{
+        margin-inline: 20px;
+     }
+     .Contact-info{
+        flex-direction: column;
+     }
+     .map p{
+        max-width: 700px;
+     }
+     .num{
+        padding-left: 0;
+     }
+     .footer{
+        margin-inline: 20px;
+     }
+     .footer-text{
+        margin-inline: 20px;
+     }
+     .Copyright-section{
+        margin-inline: 20px;
+        flex-direction: column;
+        gap: 10px;
+     }
+    }
+@media (max-width:481px){
+ .home-lone{
+        display: grid;
+        grid-template-columns: 1fr ; 
+        gap: 20px;
+        margin-left: 20px;
+             }
+              .hero-text2 h1 {
+       
+        font-size: 38px;
+    }
+   .card{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   } 
+     .gr{
+    grid-template-columns: 1fr 1fr  ;
+ } 
+  .companycard img{
+    width: 100%;
+} 
+.input-section input{
+    width: 230px;
+}
+}
+@media (max-width:320px){
+     .gr{
+    grid-template-columns: 1fr  ;
+ 
+}
+.gr-cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.input-section input{
+    width: 180px;
+} 
+}
